@@ -7,13 +7,13 @@ using System.Threading.Tasks;
 
 namespace Projekt_Notatki.Models
     {
-public class u¿ytkownik
+public class uzytkownik
 {
-    
-    public decimal id_u¿ytkownik { get; set; }
-    public string nazwa_u¿ytkownika { get; set; }
+    [Key]
+    public decimal id_uzytkownik { get; set; }
+    public string nazwa_uzytkownika { get; set; }
     public string email { get; set; }
-    public string has³o { get; set; }
+    public string haslo { get; set; }
     
 
 }

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Design;
 
 namespace Projekt_Notatki.Data.Migrations
 {
@@ -14,8 +15,8 @@ namespace Projekt_Notatki.Data.Migrations
 
         }
         public DbSet<Projekt_Notatki.Models.notatka> notatka { get; set; }
-        
-
     }
-}
 
+
+   
+}
